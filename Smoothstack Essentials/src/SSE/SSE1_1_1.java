@@ -7,6 +7,8 @@ public class SSE1_1_1 {
 		// How many rows the triangle has
 		int num_row = 5;
 
+		System.out.println("1)");
+		
 		// For loop to create right triangle made up of *
 		for (int i = 1; i <= num_row; ++i) {
 			

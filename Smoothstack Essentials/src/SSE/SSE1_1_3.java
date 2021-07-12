@@ -8,6 +8,8 @@ public class SSE1_1_3 {
 
 		// How many rows the triangle has
 		int num_row = 5;
+		
+		System.out.println("3)");
 
 		// For loop to create the full triangle
 		for (int i = 1; i <= num_row; i++) {

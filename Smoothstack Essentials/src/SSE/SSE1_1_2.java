@@ -9,6 +9,8 @@ public class SSE1_1_2 {
 		// Number of rows that the triangle has
 		int num_row = 5;
 
+		System.out.println("2)");
+		
 		// For loop to create a descending right triangle
 		for (int i = num_row; i >= 1; --i) {
 			
