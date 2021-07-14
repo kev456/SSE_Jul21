@@ -16,21 +16,21 @@ public class LineTest {
 	@Test
 	public void testGetSlope() {
 		assertEquals(3.0, x.getSlope(), .0001);
-		// assertNotEquals(5.0, x.getSlope(), .0001);
+		assertNotEquals(5.0, x.getSlope(), .0001);
 	}
 	
 	// Test if getDistance is accurate
 	@Test
 	public void testGetDistance() {
 		assertEquals(Math.sqrt(10), x.getDistance(), .0001);
-		// assertNotEquals(9, x.getDistance(), .0001);
+		assertNotEquals(9, x.getDistance(), .0001);
 	}
 	
 	// Test if parallelTo is accurate
 	@Test
 	public void TestParallelTo() {
-		// assertEquals(true, x.parallelTo(l));
-		// assertNotEquals(true, x.parallelTo(y));
+		assertEquals(true, x.parallelTo(l));
+		assertNotEquals(true, x.parallelTo(y));
 	}
 	
 }
